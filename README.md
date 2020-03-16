@@ -203,7 +203,7 @@ So `strapi-cms/package.json` may look like:
 }
 ```
 
-### ⊙ Add [`nginx.conf`], or [`nginx-multi-ports.conf`] if mapping multiple apps to the same domain on different ports(https://github.com/61FINTECH/deploy-strapi-on-aws/blob/master/nginx.conf) to the project root
+### ⊙ Add [`nginx.conf`], or [`nginx-multi-ports.conf`] if mapping multiple apps to the same domain on different ports, (https://github.com/61FINTECH/deploy-strapi-on-aws/blob/master/nginx.conf) to the project root
 > If you prefer best practices using `/etc/nginx/{sites-available|sites-enabled}`, you may need help from https://nginxconfig.io or https://github.com/h5bp/server-configs-nginx . I prefer single file `nginx.conf` because of simplicity.
 
 Don't forget to replace all `yourdomain.com` with yours.
